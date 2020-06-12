@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(7, 7, 53);
+}
+
+.todolist{
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 20px;
+    background-color: rgb(207, 204, 204);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    .form{
+        input{
+            height: 25px;
+            width: 230px;
+            border-radius: 5px;
+        }
+
+        button{
+            height: 25px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 2px;
+            cursor: pointer;
+            color: green;
+        }
+
+        button:hover{
+            background-color: green;
+            color: whitesmoke;
+            font-weight: bolder;
+        }
+    }
+    .item{
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        button{
+            border: none;
+            background-color: white;
+            color: red;
+            font-weight: bolder;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+    
+        button:hover{
+            background-color: red;
+            color: whitesmoke;
+            font-weight: bolder;
+        }
+    }
+    
+    .item:hover{
+        background-color: rgb(57, 57, 236);
+        color: white;
+    }
+}
+
+
